@@ -1,18 +1,9 @@
  $source= @"
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Runtime.InteropServices;
-using System.IO;
-using System.Diagnostics;
-using System.Media;
-using System.Reflection;
 using System.Threading;
 
-@public static class Win32
+public static class Win32
 {
  [DllImport("user32.dll")]
     static extern int GetSystemMetrics(SystemMetric smIndex);
